@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import cmedia from './header.module.css'
 
 const Header = (props) => {
@@ -5,9 +6,9 @@ const Header = (props) => {
         <div className={cmedia.header}>
             <h1>КонвертИкс</h1>
             <nav className={cmedia.hMenu}>
-                <li><a href="">Финансы</a></li>
-                <li><a href="">Здоровье</a></li>
-                <li><a href="">Математика и Физика</a></li>
+                <li><NavLink to='/finance'>Финансы</NavLink></li>
+                <li><NavLink to='/math'>Математика</NavLink></li>
+                <li><NavLink to='/physmath'>Здоровье</NavLink></li>
             </nav>
         </div>)
 }

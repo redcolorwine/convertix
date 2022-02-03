@@ -1,0 +1,14 @@
+.math {
+    color: rgb(9, 77, 116);
+}
+
+.info {
+    margin: 0 auto;
+    width: 750px;
+    text-align: justify;
+    background-color: rgb(156, 185, 209);
+    color:rgb(238, 240, 246);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
