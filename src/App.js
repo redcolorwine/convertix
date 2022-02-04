@@ -2,9 +2,10 @@ import './App.css';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Physmath from './components/physmath/physmath';
 import FinanceContainer from './components/finance/financeContainer';
 import MathContainer from './components/math/mathContainer';
+import Health from './components/health/health';
+import HealthContainer from './components/health/healthContainer';
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
             <Route path='/' element={<FinanceContainer/>} />
             <Route path='/finance' element={<FinanceContainer />} />
             <Route path='/math' element={<MathContainer />} />
-            <Route path='/physmath' element={<Physmath />} />
+            <Route path='/health' element={<HealthContainer />} />
           </Routes>
         </div>
         <Footer />

@@ -8,7 +8,7 @@ const Header = (props) => {
             <nav className={cmedia.hMenu}>
                 <li><NavLink to='/finance'>Финансы</NavLink></li>
                 <li><NavLink to='/math'>Математика</NavLink></li>
-                <li><NavLink to='/physmath'>Здоровье</NavLink></li>
+                <li><NavLink to='/health'>Здоровье</NavLink></li>
             </nav>
         </div>)
 }

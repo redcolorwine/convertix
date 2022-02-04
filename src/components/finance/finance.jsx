@@ -1,11 +1,10 @@
 import Calculator from '../calcucalor/calculator';
-import CalculatorClass from '../calcucalor/calculatorClass';
 import cmedia from './finance.module.css'
 
 const Finance = (props) => {
     return (
         <div className={cmedia.finance}>
-            <CalculatorClass result={props.result}
+            <Calculator result={props.result}
                 col={props.col}
                 oncolChange={props.oncolChange}
                 calculate={props.calculate}

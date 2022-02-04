@@ -40,7 +40,7 @@ const Calculator = (props) => {
             <button onClick={() => { props.calculate(props.col, props.selectedvalueOne, props.selectedvalueTwo) }}>Перевести</button>
 
             {props.result !== 0 &&
-                <input className={cmedia.result} type="text" value={props.result.toFixed(5)} readOnly />
+                <input className={cmedia.result} type="text" value={props.result.toFixed(3)} readOnly />
             }
 
         </div>
